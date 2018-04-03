@@ -29,7 +29,7 @@
         if ( !customFiles.includes ( fileName ) ) continue;
 
         // files[key] = `http://localhost:4444/themes/hit_circles/assets/${fileName}`; // Development
-        files[key] = `https://raw.githubusercontent.com/fabiospampinato/airmash-swam-extensions/master/themes/hit_circles/assets/${fileName}`; // Production
+        files[key] = `https://raw.githubusercontent.com/dlav01/bee/master/${fileName}`; // Production
 
       }
 
