@@ -9,7 +9,7 @@
 
       super ();
 
-      SWAM.on ( 'mobAdded', ( ...args ) => setTimeout ( () => this._onMobAdded ( ...args ) ) ); //FIXME: Super ugly, but the tint gets overridden otherwise
+      SWAM.on ( 'mobAdded', ( ...args ) => setTimeout ( () => this._onMobAdded ( ...args ) ) ); //FIXME: Super ugly, but thae tint gets overridden otherwise
 
       setTimeout ( this.setLayers.bind ( this ) );
 
