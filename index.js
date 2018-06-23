@@ -131,7 +131,7 @@
         if ( fileName in customFiles ) {
 
           // files[key] = `http://localhost:4444/themes/hit_circles/assets/${customFiles[fileName]}`; // Development
-          files[key] = `https://raw.githubusercontent.com/dlav01/bee/master/${customFiles[fileName]}`; // Production
+          files[key] = `https://raw.githubusercontent.com/dlav01/bee/master/assets/${customFiles[fileName]}`; // Production
 
         }
 
