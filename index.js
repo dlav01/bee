@@ -9,7 +9,7 @@
 
       super ();
 
-      SWAM.on ( 'mobAdded', ( ...args ) => setTimeout ( () => this._onMobAdded ( ...args ) ) ); //FIXME: Super ugly, but thae tint gets overridden otherwise
+      SWAM.on ( 'mobAdded', ( ...args ) => setTimeout ( () => this._onMobAdded ( ...args ) ) ); //FIXME: Super ugly, but the tint gets overridden otherwise
 
       setTimeout ( this.setLayers.bind ( this ) );
 
@@ -154,7 +154,7 @@
     _getCustomFiles () {
 
       return $.extend ( super._getCustomFiles (), {
-        'map_forest.jpg': 'map_forest_grid.png',
+        'map_forest.jpg': 'map_forest_grid.jpg',
         'map_rock_mask.jpg': 'map_rock_mask_grid.jpg',
         'map_sand_mask.jpg': 'map_sand_mask_grid.jpg',
         'map_sea.jpg': 'map_sea_grid.jpg',
