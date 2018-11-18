@@ -167,7 +167,7 @@
   }
 
   $.extend ( HitCirclesGridTheme, {
-    themeName: 'Vanilla Theme',
+    themeName: 'Hit Circles + Plain Grid',
     description: 'A theme that replace every image with their actual hit circles, and uses a plain grid as the background.',
     author: 'Fabio Spampinato'
   });
